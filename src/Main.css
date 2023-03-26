@@ -1,0 +1,49 @@
+.main-content{
+    background-color: #ccff00;
+    padding: 10%;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .min-div{
+    margin-right: 5px;
+  }
+  
+  .sec-div{
+    margin-left: 5px;
+  }
+  
+  .min-div, .sec-div, .middle, .start-btn{
+    display: inline-block;
+  }
+  
+  input[type="number"] {
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .start-btn{
+    height: 44px;
+    width: 70px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+  .reset-btn, .stop-btn{
+    display: inline-block;
+    height: 44px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .reset-btn, .start-btn, .stop-btn:hover{
+    cursor: pointer;
+  }
+
+  .over{
+    margin-top: 85px;
+    color: red;
+  }
+  
